@@ -1,7 +1,5 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/home/page": "app/home/page.js",
-  "/dive-create/page": "app/dive-create/page.js",
   "/submit-management/page": "app/submit-management/page.js",
-  "/login/page": "app/login/page.js"
+  "/dive-create/page": "app/dive-create/page.js"
 }
