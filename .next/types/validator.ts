@@ -36,6 +36,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 }
 
 
+// Validate ../../src/app/dive-create/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/dive-create">> = Specific
+  const handler = {} as typeof import("../../src/app/dive-create/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/login/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/login">> = Specific
@@ -49,15 +58,6 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/">> = Specific
   const handler = {} as typeof import("../../src/app/page.js")
-  type __Check = __IsExpected<typeof handler>
-  // @ts-ignore
-  type __Unused = __Check
-}
-
-// Validate ../../src/app/pair-watch/page.tsx
-{
-  type __IsExpected<Specific extends AppPageConfig<"/pair-watch">> = Specific
-  const handler = {} as typeof import("../../src/app/pair-watch/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -85,15 +85,6 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/submit-management">> = Specific
   const handler = {} as typeof import("../../src/app/submit-management/page.js")
-  type __Check = __IsExpected<typeof handler>
-  // @ts-ignore
-  type __Unused = __Check
-}
-
-// Validate ../../src/app/watch-data/page.tsx
-{
-  type __IsExpected<Specific extends AppPageConfig<"/watch-data">> = Specific
-  const handler = {} as typeof import("../../src/app/watch-data/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
