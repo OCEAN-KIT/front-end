@@ -11,6 +11,16 @@
       "static/chunks/main-app.js",
       "static/css/app/dive-create/page.css",
       "static/chunks/app/dive-create/page.js"
+    ],
+    "/home/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/home/page.js"
+    ],
+    "/dive-drafts/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dive-drafts/page.js"
     ]
   }
 }
