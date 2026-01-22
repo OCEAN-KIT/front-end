@@ -9,6 +9,7 @@
     "/dive-create/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/dive-create/page.css",
       "static/chunks/app/dive-create/page.js"
     ]
   }
