@@ -1,3 +1,14 @@
 {
-  "/dive-create/page": "app/dive-create/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/icon.jpg/route": "app/icon.jpg/route.js",
+  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
+  "/dive-drafts/page": "app/dive-drafts/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/page": "app/page.js",
+  "/register/page": "app/register/page.js",
+  "/login/page": "app/login/page.js",
+  "/dive-create/page": "app/dive-create/page.js",
+  "/home/page": "app/home/page.js",
+  "/submit-management/page": "app/submit-management/page.js"
 }
