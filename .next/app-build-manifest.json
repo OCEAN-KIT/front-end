@@ -26,6 +26,11 @@
       "static/chunks/main-app.js",
       "static/css/app/dive-create/page.css",
       "static/chunks/app/dive-create/page.js"
+    ],
+    "/manifest.webmanifest/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/manifest.webmanifest/route.js"
     ]
   }
 }
